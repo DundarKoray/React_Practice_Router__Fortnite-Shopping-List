@@ -1,10 +1,18 @@
 import React from 'react';
+import Nav from './Nav'
+import About from './pages/About'
+import Shop from './pages/Shop'
+import Contact from './pages/Contact'
 
+import './App.css'
 
 function App() {
   return (
     <div>
-      <h1>Moro</h1>
+      <Nav />
+      <About />
+      <Shop />
+      <Contact />
     </div>
   )
 }
