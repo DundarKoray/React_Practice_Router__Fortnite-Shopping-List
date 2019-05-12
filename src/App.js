@@ -5,6 +5,7 @@ import './App.css'
 import Nav from './Nav'
 import About from './pages/About'
 import Shop from './pages/Shop'
+import ItemDetail from './pages/ItemDetail'
 import Contact from './pages/Contact'
 
 
@@ -16,7 +17,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About}/>
-          <Route path="/shop" component={Shop}/>
+          <Route exact path="/shop" component={Shop}/>
+          <Route path="/shop/:id" component={ItemDetail}/>
           <Route path="/contact" component={Contact}/>
         </Switch>
       </div>
