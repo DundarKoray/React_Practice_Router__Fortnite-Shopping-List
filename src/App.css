@@ -6,13 +6,15 @@
 
 body {
     font-size: 20px;
+    padding: 20px;
 }
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background: #096386;
+    background: linear-gradient(to right bottom, rgba(64,167,152), rgba(34,107,128)); 
+    /* #096386; */
     color: whitesmoke;
 }
 
@@ -22,4 +24,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+.about {
+    color: #40a798;
 }
