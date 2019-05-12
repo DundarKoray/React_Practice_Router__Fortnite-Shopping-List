@@ -31,6 +31,7 @@ const Home = () => {
   return (
     <div>
       <h1>Home Page</h1>
+      <p>Go to shop page to see the latest Fortnite items</p>
     </div>
   )
 }
